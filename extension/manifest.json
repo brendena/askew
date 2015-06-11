@@ -1,14 +1,15 @@
 {
   "manifest_version": 2,
 
-  "name": "perminent askew",
+  "name": "permanent askew",
 	"short_name": "askeeww",
   "description": "Askews any webpage",
   "version": "1.0",
   "content_scripts": [
     {
 			"matches":["<all_urls>"],
-      "js": ["content.js"]
+			"css":["cssContent.css"],
+      "js": ["jquery.min.js","content.js"]
     }
   ],
 	"icons": { "16": "icon16.png",
