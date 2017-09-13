@@ -1,0 +1,19 @@
+body{
+	width:400px;
+    padding: 5px;
+}
+
+#buttonOptionsMenu{
+	display:flex;
+	flex-direction: row;
+	padding-top:10px;
+}
+
+.quickMenu{
+	flex-grow: 1;
+	background: #87fcff;
+	border: 0px;
+}
+.quickMenu:hover{
+	background-color: yellow;
+}
